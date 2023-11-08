@@ -16586,22 +16586,6 @@ a img.aligncenter {
     margin-bottom: clamp(3.5625rem, 5.9027777778vw, 5.3125rem)
 }
 
-.gs-checkmark-list__title {
-    text-align: center
-}
-
-.gs-checkmark-list__main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between
-}
-
-.gs-checkmark-list__item {
-    display: flex;
-    margin-bottom: 2.1875rem;
-    width: 40%
-}
-
 @media (min-width:768px) {
     .gs-checkmark-list__item:nth-last-child(-n+2) {
         margin-top: 30px;
@@ -16617,30 +16601,6 @@ a img.aligncenter {
     .gs-checkmark-list__item:last-child {
         margin-bottom: 0
     }
-}
-
-.gs-checkmark-list__icon {
-    margin-right: 1.1875rem
-}
-
-.gs-checkmark-list__icon svg {
-    width: 3.75rem;
-    height: auto
-}
-
-.gs-checkmark-list__name {
-    margin-bottom: .625rem;
-    font-weight: 700;
-    font-size: 1rem;
-    color: #041e19;
-    line-height: 1.5
-}
-
-.gs-checkmark-list__text {
-    font-weight: 400;
-    font-size: 1rem;
-    color: #041e19;
-    line-height: 1.6
 }
 
 .gs-checkmark-list__description {
