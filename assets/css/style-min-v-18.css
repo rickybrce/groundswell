@@ -13899,12 +13899,8 @@ a img.aligncenter {
 
 .gs-logos__title {
     margin-bottom: clamp(.6875rem, 1.9444444444vw, 1.75rem);
-    font-weight: 700;
     font-size: clamp(1rem, 1.6666666667vw, 1.5rem);
-    color: #041e19;
-    line-height: 1.3;
     text-transform: uppercase;
-    text-align: center
 }
 
 .gs-logos__wr {
@@ -15055,19 +15051,10 @@ a img.aligncenter {
     width: 34.375rem
 }
 
-.gs-wipe-tabs {
-    padding: clamp(4.8125rem, 8.125vw, 7.3125rem) 0 clamp(3.9375rem, 7.6388888889vw, 6.875rem);
-    background-color: #f7f6f4
-}
-
 @media (max-width:767px) {
     .gs-wipe-tabs {
         padding-top: 0
     }
-}
-
-.gs-wipe-tabs__header {
-    padding-bottom: clamp(2.5rem, 7.9861111111vw, 7.1875rem)
 }
 
 @media (max-width:767px) {
@@ -15080,11 +15067,6 @@ a img.aligncenter {
     margin-top: clamp(1.875rem, 3.4722222222vw, 3.125rem)
 }
 
-.gs-wipe-tabs__title {
-    margin: 0 auto clamp(1.1875rem, 2.2916666667vw, 2.0625rem);
-    max-width: clamp(57.875rem, 64.3055555556vw, 57.875rem);
-    text-align: center
-}
 
 .gs-wipe-tabs__image-text {
     background-color: #fff
@@ -15194,38 +15176,12 @@ a img.aligncenter {
     }
 }
 
-.gs-wipe-tabs__subtitle {
-    margin: 0 auto;
-    max-width: 56.25rem;
-    font-weight: 400;
-    font-size: clamp(1.25rem, 1.6666666667vw, 1.5rem);
-    color: #041e19;
-    line-height: 1.3;
-    text-align: center
-}
-
 @media (max-width:767px) {
     .gs-wipe-tabs__main {
         margin-top: -20px
     }
 }
 
-.gs-wipe-tabs__list {
-    margin-top: -35px
-}
-
-.gs-wipe-tabs__item {
-    display: none;
-    flex-wrap: wrap;
-    justify-content: space-between
-}
-
-.gs-wipe-tabs__start {
-    padding-top: 4.375rem;
-    display: flex;
-    align-items: center;
-    width: 36%
-}
 
 @media (max-width:991px) {
     .gs-wipe-tabs__start {
@@ -15235,40 +15191,12 @@ a img.aligncenter {
     }
 }
 
-.gs-wipe-tabs__end {
-    width: 34.375rem;
-    max-width: 100%
-}
-
 @media (max-width:991px) {
     .gs-wipe-tabs__end {
         margin-bottom: 30px
     }
 }
 
-.gs-wipe-tabs__name {
-    margin: 0 0 .625rem;
-    padding: 0
-}
-
-.gs-wipe-tabs__text {
-    margin-bottom: clamp(1.5625rem, 3.125vw, 2.8125rem);
-    font-weight: 400;
-    font-size: clamp(.875rem, 1.1111111111vw, 1rem);
-    color: #041e19;
-    line-height: 1.6
-}
-
-.gs-wipe-tabs__pic {
-    position: relative
-}
-
-.gs-wipe-tabs__poster {
-    position: relative;
-    width: 34.375rem;
-    max-width: 100%;
-    overflow: hidden
-}
 
 .gs-wipe-tabs__poster:after {
     content: "";
@@ -15281,25 +15209,8 @@ a img.aligncenter {
 }
 
 .gs-wipe-tabs__img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
     -o-object-fit: cover;
     object-fit: cover
-}
-
-.gs-wipe-tabs__underlay {
-    position: absolute;
-    bottom: 0;
-    left: -2.8125rem;
-    right: -2.8125rem;
-    transform: translateY(2.8125rem);
-    width: calc(100% + 5.625rem);
-    height: 19.0625rem;
-    background-color: #d6fcb2;
-    overflow: hidden
 }
 
 @media (max-width:767px) {
@@ -15312,31 +15223,9 @@ a img.aligncenter {
     }
 }
 
-.gs-wipe-tabs__curtain {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%
-}
 
-.gs-wipe-tabs__curtain,
-.gs-wipe-tabs__curtain_highlight {
-    background-color: #d6fcb2
-}
-
-.gs-wipe-tabs__curtain_salmon {
-    background-color: #ff9b74
-}
-
-.gs-resources-post-big_default .gs-resources-post-big__content .gs-underline-link>span:after,
-.gs-wipe-tabs__curtain_green {
+.gs-resources-post-big_default .gs-resources-post-big__content .gs-underline-link>span:after {
     background-color: #23e0b8
-}
-
-.gs-wipe-tabs .gs-filter__list {
-    min-width: 660px;
-    justify-content: space-between
 }
 
 .gs-compare {
@@ -20108,10 +19997,6 @@ a img.aligncenter {
 }
 
 .gs-filter {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    z-index: 1;
     filter: drop-shadow(.25rem .25rem 1.5625rem rgba(0, 0, 0, .15));
     will-change: filter
 }
@@ -20120,14 +20005,6 @@ a img.aligncenter {
     .gs-filter {
         filter: none
     }
-}
-
-.gs-filter__list {
-    display: inline-flex;
-    margin: 0 auto;
-    padding: .5625rem .875rem;
-    background-color: #fff;
-    border-radius: 4.375rem
 }
 
 @media (max-width:991px) {
@@ -20174,12 +20051,6 @@ a img.aligncenter {
     background-color: transparent;
     color: #0b4f41;
     min-width: unset
-}
-
-.gs-filter__btn.active {
-    background-color: #0b4f41;
-    color: #fff;
-    pointer-events: none
 }
 
 .gs-filter .custom-select-container {
