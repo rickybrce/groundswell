@@ -19697,7 +19697,7 @@ a img.aligncenter {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
-    background-image: url(../img/arrow-accordion.svg)
+    background-image: url(https://uploads-ssl.webflow.com/6515886f0abfac438bb6029e/654b6181954ea7114d38e8bc_arrow-accordion.svg)
 }
 
 .gs-accordion-content__accordion-text {
@@ -20456,7 +20456,7 @@ a img.aligncenter {
     height: 2rem;
     background-color: #0b4f41;
     border-radius: 50%;
-    background-image: url(../img/filter-arrow.svg);
+    background-image: url(https://uploads-ssl.webflow.com/6515886f0abfac438bb6029e/651c5e980be07dcf66f848df_filter-arrow.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: .6875rem .375rem;
@@ -20605,12 +20605,12 @@ a img.aligncenter {
 }
 
 .gs-external-form .hs-form-radio-display input:checked~span:before {
-    background-image: url(../img/radio-desctop-active.svg)
+    background-image: url(https://uploads-ssl.webflow.com/6515886f0abfac438bb6029e/654b61b144166a123f5f275f_radio-desctop-active.svg)
 }
 
 @media (max-width:767px) {
     .gs-external-form .hs-form-radio-display input:checked~span:before {
-        background-image: url(../img/radio-mobile-active.svg)
+        background-image: url(https://uploads-ssl.webflow.com/6515886f0abfac438bb6029e/654b61b12c7805e5e678666d_radio-mobile-active.svg)
     }
 }
 
@@ -20634,7 +20634,7 @@ a img.aligncenter {
     display: block;
     width: 1rem;
     height: 1rem;
-    background-image: url(../img/radio-desctop.svg);
+    background-image: url(https://uploads-ssl.webflow.com/6515886f0abfac438bb6029e/654b61b10be084568161a31b_radio-desctop.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain
@@ -20644,7 +20644,7 @@ a img.aligncenter {
     .gs-external-form .hs-form-radio-display>span:before {
         width: 21px;
         height: 21px;
-        background-image: url(../img/radio-mobile.svg)
+        background-image: url(https://uploads-ssl.webflow.com/6515886f0abfac438bb6029e/654b61b18af1fd55d565b1b7_radio-mobile.svg)
     }
 }
 
