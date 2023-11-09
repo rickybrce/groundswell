@@ -12005,7 +12005,6 @@ h6 {
     }
 }
 
-.gs-btn,
 .gs-external-form button[type=submit],
 .gs-external-form input[type=submit],
 .gs-filter__list label span,
@@ -14123,10 +14122,7 @@ a img.aligncenter {
 }
 
 .gs-testimonials {
-    padding-top: 3.875rem;
     padding-bottom: clamp(4.375rem, 5.2777777778vw, 4.75rem);
-    overflow: hidden;
-    background-color: #f7f6f4
 }
 
 .gs-testimonials_background-transparent {
@@ -14187,9 +14183,6 @@ a img.aligncenter {
 }
 
 .gs-testimonials .swiper-navigation {
-    position: absolute;
-    top: 50%;
-    left: 0;
     transform: translateY(-50%)
 }
 
@@ -14201,15 +14194,8 @@ a img.aligncenter {
 }
 
 .gs-testimonials__card {
-    margin-right: 1.6875rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     padding: clamp(1.9375rem, 2.4305555556vw, 2.1875rem) clamp(1.4375rem, 3.6111111111vw, 3.25rem);
-    min-height: 21.875rem;
-    background-color: #fff;
     box-shadow: .0625rem .0625rem .9375rem rgba(0, 0, 0, .1);
-    border-radius: 2rem
 }
 
 @media (max-width:767px) {
@@ -14249,7 +14235,6 @@ a img.aligncenter {
 .gs-testimonials__logo {
     margin-bottom: clamp(0rem, 1.5972222222vw, 1.4375rem);
     max-width: unset;
-    width: 100%
 }
 
 @media (max-width:991px) {
@@ -14262,9 +14247,6 @@ a img.aligncenter {
 .gs-testimonials__poster {
     width: clamp(4.6875rem, 6.9444444444vw, 6.25rem);
     height: clamp(4.6875rem, 6.9444444444vw, 6.25rem);
-    border: .25rem solid #d6fcb2;
-    border-radius: 50%;
-    overflow: hidden
 }
 
 @media (max-width:991px) {
@@ -14280,17 +14262,10 @@ a img.aligncenter {
     object-fit: cover
 }
 
-.gs-testimonials__phrase {
-    margin: 0 0 .9375rem;
-    padding: 0;
-    color: #041e19
-}
 
 .gs-testimonials__info {
-    margin-bottom: .625rem;
     font-weight: 350;
     font-size: clamp(.75rem, .9722222222vw, .875rem);
-    line-height: 1.6
 }
 
 .gs-calculator {
@@ -14519,35 +14494,14 @@ a img.aligncenter {
 }
 
 .gs-image-content {
-    position: relative;
     padding: clamp(6rem, 8.125vw, 7.3125rem) 0 79px;
-    background-color: #f7f6f4
 }
 
-.gs-image-content__bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: flex;
-    width: 100%;
-    height: 100%;
-    z-index: 1
-}
-
-.gs-image-content__left {
-    display: none;
-    width: 50%
-}
 
 @media (max-width:767px) {
     .gs-image-content__left {
         width: 100%
     }
-}
-
-.gs-image-content__right {
-    display: none;
-    width: 50%
 }
 
 @media (max-width:767px) {
@@ -14557,10 +14511,7 @@ a img.aligncenter {
 }
 
 .gs-image-content__circle {
-    width: 100%;
     transform: translateY(-50%);
-    border-radius: 0 0 50% 50%;
-    background-color: #0b4f41
 }
 
 @media (max-width:767px) {
@@ -14576,10 +14527,7 @@ a img.aligncenter {
 }
 
 .gs-image-content__circle-big {
-    width: 100%;
-    height: 1440px;
     transform: translateX(0);
-    overflow: hidden
 }
 
 @media (max-width:575px) {
@@ -14604,29 +14552,11 @@ a img.aligncenter {
     }
 }
 
-.gs-image-content__content {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    z-index: 1
-}
-
-.gs-image-content__start {
-    width: 50%
-}
-
 @media (max-width:575px) {
     .gs-image-content__start {
         margin-bottom: 61px;
         width: 100%
     }
-}
-
-.gs-image-content__end {
-    display: flex;
-    align-items: center;
-    padding-left: 3.8125rem;
-    width: 50%
 }
 
 @media (max-width:767px) {
@@ -14643,10 +14573,7 @@ a img.aligncenter {
 }
 
 .gs-image-content__poster {
-    position: relative;
-    max-width: 100%;
     width: clamp(19.75rem, 38.1944444444vw, 34.375rem);
-    overflow: hidden
 }
 
 @media (max-width:575px) {
@@ -14661,37 +14588,10 @@ a img.aligncenter {
     padding-bottom: 100%
 }
 
-.gs-image-content__img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover
-}
-
-.gs-image-content__textual {
-    max-width: 24.5625rem
-}
-
-.gs-image-content__title {
-    margin: 0 0 .625rem;
-    padding: 0
-}
-
 @media (max-width:767px) {
     .gs-image-content__title {
         margin: 0 0 19px
     }
-}
-
-.gs-image-content__text {
-    margin-bottom: 1.75rem;
-    font-weight: 400;
-    font-size: 1rem;
-    color: #041e19;
-    line-height: 1.6
 }
 
 @media (max-width:767px) {
