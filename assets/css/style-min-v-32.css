@@ -12792,12 +12792,6 @@ a img.aligncenter {
     margin-bottom: clamp(7.125rem, 11.25vw, 10.125rem)
 }
 
-.gs-text-with-sidebar__content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between
-}
-
 @media (max-width:767px) {
     .gs-text-with-sidebar__content {
         flex-direction: column;
@@ -12805,9 +12799,6 @@ a img.aligncenter {
     }
 }
 
-.gs-text-with-sidebar__start {
-    width: 32%
-}
 
 @media (max-width:767px) {
     .gs-text-with-sidebar__start {
@@ -12816,22 +12807,11 @@ a img.aligncenter {
     }
 }
 
-.gs-text-with-sidebar__end {
-    padding-top: 9.375rem;
-    width: 62%
-}
-
 @media (max-width:767px) {
     .gs-text-with-sidebar__end {
         padding-top: 0;
         width: 100%
     }
-}
-
-.gs-text-with-sidebar__panel {
-    position: relative;
-    background-color: #f7f6f4;
-    border-radius: 0 0 9.375rem
 }
 
 .gs-text-with-sidebar__panel:after {
@@ -12844,12 +12824,6 @@ a img.aligncenter {
     background-color: #f7f6f4
 }
 
-.gs-text-with-sidebar__panel-wr {
-    direction: rtl;
-    padding: 5.625rem 4.125rem 7.875rem 0;
-    max-height: 100vh;
-    overflow: auto
-}
 
 @media (max-width:767px) {
     .gs-text-with-sidebar__panel-wr {
@@ -12858,18 +12832,8 @@ a img.aligncenter {
     }
 }
 
-.gs-text-with-sidebar__panel-title {
-    font-weight: 700;
-    font-size: 1.75rem;
-    color: #041e19;
-    line-height: 1.9;
-    direction: ltr
-}
 
-.gs-text-with-sidebar__item {
-    direction: ltr;
-    margin-top: 1.625rem
-}
+
 
 .gs-text-with-sidebar__item_active .gs-text-with-sidebar__link,
 .gs-text-with-sidebar__link:hover {
@@ -17888,39 +17852,15 @@ a img.aligncenter {
 }
 
 .gs-hero-with-description {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: clamp(21.6875rem, 38.1944444444vw, 34.375rem);
-    color: #fff;
-    text-align: center;
-    background-color: #0b4f41;
     visibility: hidden
 }
 
-.gs-hero-with-description__content {
-    padding: 3.125rem 0
-}
-
-.gs-hero-with-description__title {
-    margin: 0 0 1.5625rem;
-    padding: 0
-}
 
 .gs-hero-with-description__subtitle {
     margin: 0 0 .625rem;
     font-weight: 700;
     font-size: clamp(1.25rem, 1.6666666667vw, 1.5rem);
     line-height: 1.3
-}
-
-.gs-hero-with-description__text {
-    font-weight: 400;
-    font-size: clamp(.875rem, 1.1111111111vw, 1rem);
-    line-height: 1.6;
-    max-width: 750px;
-    margin-left: auto;
-    margin-right: auto
 }
 
 .gs-contact-block-2 {
